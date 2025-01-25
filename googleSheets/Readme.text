@@ -1,0 +1,87 @@
+Google Sheets Clone
+
+This project is a Google Sheets clone built with React, TypeScript, Zustand for state management, and Tailwind
+CSS for styling. It provides a spreadsheet-like interface with features such as cell editing, formula
+evaluation, and context menus for row and column operations.
+
+
+Table of Contents
+
+1.Installation
+2.Usage
+3.Features
+4.Project Structure
+5.Contributing
+6.License
+
+
+Installation
+
+1. Clone the repository:
+git clone https://github.com/your-username/google-sheets-clone.git
+cd google-sheets-clone
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
+npm run dev
+
+
+Usage
+Open your browser and navigate to http://localhost : 3000 to see the application in action.
+
+Features
+
+• Cell Editing: Click on a cell to edit its content.
+• Formula Evaluation: Supports basic formulas like SUM, AVERAGE, MIN, COUNT, TRIM, UPPER, and LOWER.
+• Context Menu: Right-click on rows or columns to insert, delete, or clear contents.
+• Drag and Drop: Drag to move or copy cells.
+• Undo/Redo: Supports undo and redo operations.
+
+Project Structure
+.
+├── .gitignore
+├── .sample/
+│   ├── config.json
+│   └── prompt
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── src/
+│   ├── App.tsx
+│   ├── components/
+│   │   ├── Cell.tsx
+│   │   ├── ContextMenu.tsx
+│   │   ├── FormulaBar.tsx
+│   │   ├── Grid.tsx
+│   │   └── Toolbar.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── store/
+│   │   └── sheetStore.ts
+│   ├── types/
+│   │   └── sheet.ts
+│   ├── utils/
+│   │   └── functions.ts
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+
+Key Files
+• src/App.tsx: Main application component.
+• components : Contains all the Ul components like Cell, ContextMenu, FormulaBar, Grid , and Toolbar
+• src/store/sheetStore.ts: Zustand store for managing the sheet state.
+• src/utils/functions.ts: Utility functions for formula evaluation.
+• src/types/sheet.ts: Type definitions for the sheet data.
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
