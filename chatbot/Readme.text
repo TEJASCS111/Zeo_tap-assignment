@@ -1,0 +1,81 @@
+# Vite React TypeScript Starter
+
+This is a starter project for building a React application with TypeScript, Vite, and Tailwind CSS. 
+The project includes a simple chat interface for interacting with a CDP (Customer Data Platform) assistant.
+
+## Project Structure
+
+### Key Files and Directories
+
+- **src/components/**: Contains React components used in the application.
+  - **CDPSelector.tsx**: Component for selecting a CDP.
+  - **ChatInput.tsx**: Component for inputting chat messages.
+  - **ChatMessage.tsx**: Component for displaying chat messages.
+- **src/App.tsx**: Main application component.
+- **src/index.css**: Tailwind CSS imports.
+- **src/main.tsx**: Entry point for the React application.
+- **src/types.ts**: TypeScript types used in the application.
+- **index.html**: HTML template for the application.
+- **package.json**: Project dependencies and scripts.
+- **postcss.config.js**: PostCSS configuration.
+- **tailwind.config.js**: Tailwind CSS configuration.
+- **tsconfig.json**: TypeScript configuration.
+- **vite.config.ts**: Vite configuration.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/vite-react-typescript-starter.git
+cd vite-react-typescript-starter
+
+Install dependencies:
+npm install
+
+To start the development server, run:
+npm run dev
+
+To build the project for production run:
+npm run build
+
+To lint the project, run:
+npm run lint
+
+
+Usage
+The application allows users to select a CDP and ask questions about it. The CDP assistant will respond with demo answers.
+
+Components
+
+• CDPSeIector: Allows users to select a CDP from a list.
+• Chatlnput: Input field for users to type their questions.
+• ChatMessage: Displays chat messages from the user and the CDP assistant.
+
+Types
+• Message: Represents a chat message.
+CDP: Represents a CDP (e.g., 'Segment',
+
+Configuration
+
+Tailwind CSS ('mParticle').
+Tailwind CSS is configured in tailwind. config.js and imported in src/index.css.
+
+ESLint
+ESLint is configured in eslint.config.js to enforce coding standards and best practices.
+
+TypeScript
+TypeScript is configured in tsconfig.json ,tsconfig.app.json , and tsconfig. node.json .
+
+License
+This project is licensed under the MIT License.
+
+
+Feel free to customize this `README.md` file as needed for your project.
